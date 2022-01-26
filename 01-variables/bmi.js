@@ -1,6 +1,5 @@
 const prompt = require('prompt-sync')();
 
-
 // eqv in python:
 // float (input("Please enter your weight"))
 let weight = parseFloat(prompt("Please enter your weight: "));
