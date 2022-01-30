@@ -1,10 +1,10 @@
 let something;
 console.log("something=", something)
-// result in error - undefined
+// result in error - 'undefined'. nothing is assigned in the variable.
 
 let s = something + 10;
 console.log("s =", s);
-// result in error NaN (not a number)
+// result in error NaN (not a number). undefined variable.
 
 let v = s + 20;
 console.log("v =", v);
@@ -12,7 +12,7 @@ console.log("v =", v);
 
 let i = 22/0;
 console.log("i =", i);
-// result in error - infinity
+// result in error - infinity.
 
 // null is ALWAYS explicitly assigned by programmer
 // null has the same meaning as undefined, meaning nothing
