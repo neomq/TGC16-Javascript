@@ -9,12 +9,23 @@ const pi = 3.14; // cannot be reassigned
 const gst = 0.07;
 
 // Significant of JS developers use const for any variables that will not be reassigned
-const weight = 87;
+// e.g. say programmers do not want the weight and height to be changeable
+// or wants to prevent the variable from being overwritten
+const weight = 87; 
 const height = 1.71;
 console.log(weight/height**2);
 
-let fruits = ["apples", "oranges", "bananas"];
+// If const array...
 const primes = [11, 17, 21];
-primes[0] = 13; // assigned to one element, not affected by const
+primes[0] = 13; 
 console.log(primes);
-// primes = [15,17,21]; // reassigned to the entire array, therefore affected by const and will crash
+// example above will not result in error. 
+// primes[0]=13 --- assigned to one element in the array, not affected by const.
+// const only applies to the entire array.
+
+// primes = [15,17,21];
+// above example reassigned to the entire array, therefore affected by const and will crash
+
+// * codes should not confuse people.
+// * if additional explanation is required, then it is not a good coding practice.
+// * try not to use const for everything.
