@@ -1,7 +1,11 @@
 const prompt = require('prompt-sync')();
 
 // in JavaScript, { ... } forms a scope
+// use {} to group statements together 
+
 let age = parseInt(prompt("Please enter your age: "))
+// statement above not inside curly braces - known as global scope
+
 if (age < 67) {
     console.log("You are",age,'years old');
     console.log("You cannot retire yet");
