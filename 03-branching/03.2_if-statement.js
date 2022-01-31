@@ -34,7 +34,7 @@ if (score >= 80 && score < 90) {
 // x = 43 ==> 43 evaluates to true
 // example below will not work
 
-if (x=43) {
+if (x = 43) {
     console.log("Secret of life is found")
 } else {
     console.log("Sorry not found");
