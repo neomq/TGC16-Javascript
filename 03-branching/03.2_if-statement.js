@@ -19,10 +19,25 @@ if (score >= 90) {
 } else {
     console.log("F")
 }
+// else if is used for mutually exclusive clauses
+
+// replicate the above code without using any else-if
+if (score >= 90) {
+    console.log("AD");
+} 
+if (score >= 80 && score < 90) {
+    console.log("A");
+}
 
 // do not use single equal in comparison
+// '=' is an assignment operator
+// x = 43 ==> 43 evaluates to true
 // example below will not work
-if (x=43){
-    console.log("....")
+
+if (x=43) {
+    console.log("Secret of life is found")
+} else {
+    console.log("Sorry not found");
 }
+console.log(x);
 
