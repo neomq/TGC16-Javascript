@@ -2,10 +2,13 @@ const prompt = require('prompt-sync')();
 
 // unary - operator that works with one clause
 let x = 3;
+// x++;
 let y = x++ + 3;
 // => let y = 3 + 3
 // => let y = 6;
 console.log("x after x++ =", x);
+// x++ is a unary operator. do not use x++ with other operators.
+// x++ will only execute on the next line
 
 // binary operators
 console.log(3 + 3);
