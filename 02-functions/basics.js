@@ -1,6 +1,6 @@
-// assume that we are creating a function that ccalculates the dist given speed and height
-
-function calculateDistance(speed,time) {
+// assume that we are creating a function
+// that calculates distance given speed and time
+function calculateDistance(speed, time) {
     let distance = speed * time;
     return distance;
 }
@@ -10,6 +10,14 @@ function calculateFuelRequired(distance) {
     return distance * 0.5;
 }
 
-console.log(calculateDistance(10,20));
-console.log("distance travelled =", distance);
-console.log("Fuel needed = ", calculateFuelRequired(distance));
+function multi(x) {
+    return x * 2;
+}
+
+let distance = calculateDistance(10,20);
+console.log("Distance travelled =", distance);
+console.log("Fuel needed =", calculateFuelRequired(distance));
+console.log(multi(4));
+
+
+
