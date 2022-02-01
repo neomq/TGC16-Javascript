@@ -16,3 +16,9 @@ for (let x = 0; x < limit; ++x) {
 
 // for loop is a short form for a while loop which is written in many lines
 // programmers are lazy and want to type as little as possible
+
+// necessary to assign sentinel condition to the for loop:
+// use a for loop when you know how many times it is going to repeat
+// - deterministic loop
+// while loop can be used for both deterministic and non-deterministic cases
+// - when you do not know how many times to repeat the loop
