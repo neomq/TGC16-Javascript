@@ -14,6 +14,8 @@ Our motto "Customer is always paying us money"
 // console.log(letter);
 
 // 2. you can easily sub variables into it
+// using ${} containing name of variable in the backtick string
+
 let firstName = "Jane";
 let lastName = "Smith";
 let bill = 200;
